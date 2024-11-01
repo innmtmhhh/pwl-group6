@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <link href="../src/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg">
+    <div class="container mx-auto flex justify-between items-center p-5">
+      <h1 class="text-2xl font-bold">MyProfile</h1>
+      <nav class="space-x-6">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
+    <div class="container mx-auto text-center">
+      <img src="https://via.placeholder.com/150" alt="Profile Picture" class="w-40 h-40 rounded-full mx-auto mb-4">
+      <h2 class="text-4xl font-bold">Group 6</h2>
+      <p class="mt-2 text-lg">Web Developer | UI/UX Designer</p>
+      <p class="mt-4 text-gray-200 max-w-lg mx-auto">I'm a passionate web developer and designer with experience in creating engaging websites that are not only visually appealing but also user-friendly.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold text-gray-700 mb-4">About Me</h3>
+      <p class="text-gray-600 mb-8 max-w-2xl mx-auto">With a background in computer science and several years of experience in the tech industry, I specialize in creating interactive and user-focused designs. My goal is to combine technical knowledge with creativity to deliver outstanding web solutions.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-100 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-blue-500">Experience</h4>
+          <p class="mt-2 text-gray-600">5+ years in web development, specializing in front-end and UI/UX design.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-green-500">Skills</h4>
+          <p class="mt-2 text-gray-600">JavaScript, React, Tailwind CSS, Figma, Adobe XD, and more.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-purple-500">Education</h4>
+          <p class="mt-2 text-gray-600">B.Sc. in Computer Science from University of XYZ.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold text-gray-700 mb-4">Projects</h3>
+      <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Below are some of the projects I've worked on, ranging from website design to application development.</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <img src="https://via.placeholder.com/300x200" alt="Project 1" class="w-full h-40 object-cover rounded-md mb-4">
+          <h4 class="text-xl font-bold text-blue-500">Project Title 1</h4>
+          <p class="mt-2 text-gray-600">Brief description of the project. Focused on responsive design and interactivity.</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <img src="https://via.placeholder.com/300x200" alt="Project 2" class="w-full h-40 object-cover rounded-md mb-4">
+          <h4 class="text-xl font-bold text-blue-500">Project Title 2</h4>
+          <p class="mt-2 text-gray-600">A web application developed with React and Tailwind CSS.</p>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <img src="https://via.placeholder.com/300x200" alt="Project 3" class="w-full h-40 object-cover rounded-md mb-4">
+          <h4 class="text-xl font-bold text-blue-500">Project Title 3</h4>
+          <p class="mt-2 text-gray-600">E-commerce platform with custom design and advanced functionality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gradient-to-r from-purple-600 to-blue-500 text-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">Get in Touch</h3>
+      <p class="text-gray-200 mb-8 max-w-2xl mx-auto">Feel free to reach out to me for collaborations, freelance work, or just to say hello!</p>
+      
+      <form class="max-w-md mx-auto">
+        <div class="mb-4">
+          <input type="text" placeholder="Your Name" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white">
+        </div>
+        <div class="mb-4">
+          <input type="email" placeholder="Your Email" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white">
+        </div>
+        <div class="mb-4">
+          <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white"></textarea>
+        </div>
+        <button type="submit" class="w-full py-2 bg-white text-purple-600 font-semibold rounded-md hover:bg-gray-200">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Group 6. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
