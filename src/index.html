@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Page</title>
+  <title>Halaman Profil</title>
   <link href="../src/output.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
@@ -11,12 +11,13 @@
   <!-- Navbar -->
   <header class="bg-gradient-to-r from-green-500 to-blue-500 text-white shadow-lg">
     <div class="container mx-auto flex justify-between items-center p-5">
-      <h1 class="text-2xl font-bold">MyProfile</h1>
+      <h1 class="text-2xl font-bold">Profil Saya</h1>
       <nav class="space-x-6">
-        <a href="#" class="hover:underline">Home</a>
-        <a href="#about" class="hover:underline">About</a>
-        <a href="#projects" class="hover:underline">Projects</a>
-        <a href="#contact" class="hover:underline">Contact</a>
+        <a href="#" class="hover:underline">Beranda</a>
+        <a href="#tentang" class="hover:underline">Tentang</a>
+        <a href="#proyek" class="hover:underline">Proyek</a>
+        <a href="#kontak" class="hover:underline">Kontak</a>
+        <a href="../src/admin.html" class="hover:underline">Admin</a>
       </nav>
     </div>
   </header>
@@ -24,82 +25,82 @@
   <!-- Hero Section -->
   <section class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
     <div class="container mx-auto text-center">
-      <img src="https://via.placeholder.com/150" alt="Profile Picture" class="w-40 h-40 rounded-full mx-auto mb-4">
-      <h2 class="text-4xl font-bold">Group 6</h2>
-      <p class="mt-2 text-lg">Web Developer | UI/UX Designer</p>
-      <p class="mt-4 text-gray-200 max-w-lg mx-auto">I'm a passionate web developer and designer with experience in creating engaging websites that are not only visually appealing but also user-friendly.</p>
+      <img src="../src/aset/WhatsApp Image 2024-11-02 at 14.55.12_93f637ab (1).jpg" alt="Foto Profil" class="w-40 h-40 rounded-full mx-auto mb-4">
+      <h2 class="text-4xl font-bold">Grup 6</h2>
+      <p class="mt-2 text-lg">Pengembang Web | Desainer UI/UX</p>
+      <p class="mt-4 text-gray-200 max-w-lg mx-auto">Saya adalah pengembang web dan desainer dengan pengalaman dalam menciptakan situs web yang menarik, tidak hanya secara visual tetapi juga mudah digunakan.</p>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="py-16 bg-white">
+  <section id="tentang" class="py-16 bg-white">
     <div class="container mx-auto text-center">
-      <h3 class="text-3xl font-semibold text-gray-700 mb-4">About Me</h3>
-      <p class="text-gray-600 mb-8 max-w-2xl mx-auto">With a background in computer science and several years of experience in the tech industry, I specialize in creating interactive and user-focused designs. My goal is to combine technical knowledge with creativity to deliver outstanding web solutions.</p>
+      <h3 class="text-3xl font-semibold text-gray-700 mb-4">Tentang Saya</h3>
+      <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Dengan latar belakang ilmu komputer dan pengalaman beberapa tahun di industri teknologi, saya berspesialisasi dalam membuat desain yang interaktif dan berfokus pada pengguna. Tujuan saya adalah menggabungkan pengetahuan teknis dengan kreativitas untuk memberikan solusi web yang luar biasa.</p>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="p-6 bg-gray-100 rounded-lg shadow">
-          <h4 class="text-xl font-bold text-blue-500">Experience</h4>
-          <p class="mt-2 text-gray-600">5+ years in web development, specializing in front-end and UI/UX design.</p>
+          <h4 class="text-xl font-bold text-blue-500">Pengalaman</h4>
+          <p class="mt-2 text-gray-600">5+ tahun dalam pengembangan web, khususnya dalam front-end dan desain UI/UX.</p>
         </div>
         <div class="p-6 bg-gray-100 rounded-lg shadow">
-          <h4 class="text-xl font-bold text-green-500">Skills</h4>
-          <p class="mt-2 text-gray-600">JavaScript, React, Tailwind CSS, Figma, Adobe XD, and more.</p>
+          <h4 class="text-xl font-bold text-green-500">Keahlian</h4>
+          <p class="mt-2 text-gray-600">JavaScript, React, Tailwind CSS, Figma, Adobe XD, dan lainnya.</p>
         </div>
         <div class="p-6 bg-gray-100 rounded-lg shadow">
-          <h4 class="text-xl font-bold text-purple-500">Education</h4>
-          <p class="mt-2 text-gray-600">B.Sc. in Computer Science from University of XYZ.</p>
+          <h4 class="text-xl font-bold text-purple-500">Pendidikan</h4>
+          <p class="mt-2 text-gray-600">S.Kom dalam Ilmu Komputer dari Universitas XYZ.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="py-16 bg-gray-50">
-    <div class="container mx-auto text-center">
-      <h3 class="text-3xl font-semibold text-gray-700 mb-4">Projects</h3>
-      <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Below are some of the projects I've worked on, ranging from website design to application development.</p>
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Project 1 -->
-        <div class="bg-white rounded-lg shadow-lg p-6">
-          <img src="https://via.placeholder.com/300x200" alt="Project 1" class="w-full h-40 object-cover rounded-md mb-4">
-          <h4 class="text-xl font-bold text-blue-500">Project Title 1</h4>
-          <p class="mt-2 text-gray-600">Brief description of the project. Focused on responsive design and interactivity.</p>
-        </div>
-        <!-- Project 2 -->
-        <div class="bg-white rounded-lg shadow-lg p-6">
-          <img src="https://via.placeholder.com/300x200" alt="Project 2" class="w-full h-40 object-cover rounded-md mb-4">
-          <h4 class="text-xl font-bold text-blue-500">Project Title 2</h4>
-          <p class="mt-2 text-gray-600">A web application developed with React and Tailwind CSS.</p>
-        </div>
-        <!-- Project 3 -->
-        <div class="bg-white rounded-lg shadow-lg p-6">
-          <img src="https://via.placeholder.com/300x200" alt="Project 3" class="w-full h-40 object-cover rounded-md mb-4">
-          <h4 class="text-xl font-bold text-blue-500">Project Title 3</h4>
-          <p class="mt-2 text-gray-600">E-commerce platform with custom design and advanced functionality.</p>
-        </div>
-      </div>
-    </div>
+  <section id="proyek" class="py-16 bg-gray-50">
+      <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-semibold text-gray-700 mb-4">Proyek</h3>
+        <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Berikut adalah beberapa proyek yang telah saya kerjakan, mulai dari desain situs web hingga pengembangan aplikasi.</p>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div class="bg-white rounded-lg shadow-lg p-6">
+            <img src="../src/aset/Blog_eCommerce_060120_WP-2.png" alt="Proyek Desain E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+            <h4 class="text-xl font-bold text-blue-500">Platform E-commerce</h4>
+            <p class="mt-2 text-gray-600">Platform belanja online dengan desain responsif dan fitur keamanan tingkat lanjut.</p>
+          </div>
+    
+          <!-- Project 2 -->
+          <div class="bg-white rounded-lg shadow-lg p-6">
+            <img src="../src/aset/th.jpeg" alt="Aplikasi Manajemen Tugas" class="w-full h-40 object-cover rounded-md mb-4">
+            <h4 class="text-xl font-bold text-blue-500">Aplikasi Manajemen Tugas</h4>
+            <p class="mt-2 text-gray-600">Aplikasi berbasis web untuk mengatur dan melacak daftar tugas dengan antarmuka intuitif.</p>
+          </div>
+    
+          <!-- Project 3 -->
+          <div class="bg-white rounded-lg shadow-lg p-6">
+            <img src="../src/aset/Portfolio-Web-Designing.png" alt="Website Portofolio Desainer" class="w-full h-40 object-cover rounded-md mb-4">
+            <h4 class="text-xl font-bold text-blue-500">Website Portofolio</h4>
+            <p class="mt-2 text-gray-600">Portofolio digital yang menampilkan karya desain grafis dan ilustrasi untuk klien.</p>
+          </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-16 bg-gradient-to-r from-purple-600 to-blue-500 text-white">
+  <section id="kontak" class="py-16 bg-gradient-to-r from-purple-600 to-blue-500 text-white">
     <div class="container mx-auto text-center">
-      <h3 class="text-3xl font-semibold mb-4">Get in Touch</h3>
-      <p class="text-gray-200 mb-8 max-w-2xl mx-auto">Feel free to reach out to me for collaborations, freelance work, or just to say hello!</p>
+      <h3 class="text-3xl font-semibold mb-4">Hubungi Saya</h3>
+      <p class="text-gray-200 mb-8 max-w-2xl mx-auto">Jangan ragu untuk menghubungi saya untuk kolaborasi, pekerjaan lepas, atau sekadar menyapa!</p>
       
       <form class="max-w-md mx-auto">
         <div class="mb-4">
-          <input type="text" placeholder="Your Name" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white">
+          <input type="text" placeholder="Nama Anda" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white">
         </div>
         <div class="mb-4">
-          <input type="email" placeholder="Your Email" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white">
+          <input type="email" placeholder="Email Anda" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white">
         </div>
         <div class="mb-4">
-          <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white"></textarea>
+          <textarea placeholder="Pesan Anda" rows="4" class="w-full px-4 py-2 text-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-white"></textarea>
         </div>
-        <button type="submit" class="w-full py-2 bg-white text-purple-600 font-semibold rounded-md hover:bg-gray-200">Send Message</button>
+        <button type="submit" class="w-full py-2 bg-white text-purple-600 font-semibold rounded-md hover:bg-gray-200">Kirim Pesan</button>
       </form>
     </div>
   </section>
@@ -107,7 +108,7 @@
   <!-- Footer -->
   <footer class="bg-gray-900 text-gray-400 py-4">
     <div class="container mx-auto text-center">
-      <p>&copy; 2024 Group 6. All rights reserved.</p>
+      <p>&copy; 2024 Grup 6.</p>
     </div>
   </footer>
 
